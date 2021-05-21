@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './components/Header'
+import Addtodo  from './components/Addtodo'
+import Grocerylist  from './components/Grocerylist'
+import {Provider} from './components/Context'
 
 function App() {
   const [height,setHeight]=useState(0)
@@ -61,13 +64,23 @@ function App() {
     )
   }
   return (
-    <div className="App">
-      <Header />
-      {body()}
+    <>
+    <div className="body">
+
+    
+    <Header />
+    <div className="app-container">
       
-      {message()}
+
+     
+      
+    <Addtodo />
+    {/* <Grocerylist/> */}
       
     </div>
+    </div>
+    
+    </>
   );
 }
 

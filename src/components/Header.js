@@ -5,7 +5,7 @@ function Header() {
         <div>
             <nav class="navbar" style={{backgroundColor:"#66d9ff",color:'white'}}>
                 
-                <h3 style={{paddingLeft:"520px"}}>BMI Calculator</h3>
+                <h3 style={{paddingLeft:"520px"}}>Monthly Grocery Planning App</h3>
                 
         
 </nav>
